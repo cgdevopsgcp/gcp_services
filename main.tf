@@ -1,5 +1,5 @@
 resource "google_compute_instance" "deafault" {
-  name         = "anz_vm_1"
+  name         = "cganzvm"
   machine_type = "e2-medium"
   zone         = "us-central1-a"
 
