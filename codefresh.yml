@@ -29,5 +29,5 @@ steps:
       - terraform init
       - terraform validate
       - terraform plan
-      - terraform deploy -auto-approve
+      - terraform destroy -auto-approve
       
