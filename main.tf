@@ -1,5 +1,5 @@
-resource "google_compute_instance" "default" {
-  name         = "virtual-machine1273"
+resource "google_compute_instance" "deafault" {
+  name         = "anz_vm_1"
   machine_type = "e2-medium"
   zone         = "us-central1-a"
 
