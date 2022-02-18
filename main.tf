@@ -1,4 +1,4 @@
-resource "google_compute_instance" "dpa" {
+resource "google_compute_instance" "dpais" {
   name         = "saiindue"
   machine_type = "e2-medium"
   zone         = "us-east1"
