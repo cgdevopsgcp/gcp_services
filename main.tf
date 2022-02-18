@@ -1,5 +1,5 @@
 resource "google_compute_instance" "dpais" {
-  name         = "saiindue"
+  name         = "adnmp"
   machine_type = "e2-medium"
   zone         = "us-central1-a"
 
