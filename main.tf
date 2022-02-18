@@ -1,5 +1,5 @@
-resource "google_compute_instance" "deafault" {
-  name         = "cganzvm"
+resource "google_compute_instance" "dpa" {
+  name         = "saiindue"
   machine_type = "e2-medium"
   zone         = "us-central1-a"
 
