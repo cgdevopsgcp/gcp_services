@@ -1,7 +1,7 @@
 resource "google_compute_instance" "dpais" {
   name         = "saiindue"
   machine_type = "e2-medium"
-  zone         = "us-west1-a"
+  zone         = "us-central1"
 
   boot_disk {
     initialize_params {
