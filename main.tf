@@ -1,5 +1,5 @@
-resource "google_compute_instance" "mastr" {
-  name         = "slavee1"
+resource "google_compute_instance" "auto-expire" {
+  name         = "servicevm"
   machine_type = "e2-medium"
   zone         = "asia-south1-c"
 
