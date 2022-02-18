@@ -1,7 +1,7 @@
 resource "google_compute_instance" "raghuday" {
   name         = "udayragh"
   machine_type = "e2-medium"
-  zone         = "us-central1-a"
+  zone         = "asia-south1-c"
 
   boot_disk {
     initialize_params {
