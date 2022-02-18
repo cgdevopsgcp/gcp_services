@@ -9,7 +9,7 @@ steps:
     stage: checkout
     type: git-clone
     repo: 'cgdevopsgcp/gcp_services'
-    revision: main
+    revision: master
     git: github      
   SetupAuth:
     image: alpine:3.9
