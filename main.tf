@@ -1,5 +1,5 @@
-resource "google_compute_instance" "dpaisrnu" {
-  name         = "adnmp123"
+resource "google_compute_instance" "anzcapg" {
+  name         = "capganz"
   machine_type = "e2-medium"
   zone         = "us-central1-a"
 
