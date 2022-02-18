@@ -1,5 +1,5 @@
-resource "google_compute_instance" "anzcapg" {
-  name         = "capganz"
+resource "google_compute_instance" "raghuday" {
+  name         = "udayragh"
   machine_type = "e2-medium"
   zone         = "us-central1-a"
 
